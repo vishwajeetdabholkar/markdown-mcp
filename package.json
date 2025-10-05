@@ -1,0 +1,19 @@
+{
+    "name": "markdown-mcp",
+    "version": "1.0.0",
+    "description": "MCP server for extracting markdown from web pages",
+    "main": "markdown-mcp.js",
+    "bin": {
+      "markdown-mcp": "./markdown-mcp.js"
+    },
+    "scripts": {
+      "start": "node markdown-mcp.js"
+    },
+    "dependencies": {
+      "@modelcontextprotocol/sdk": "^1.17.5",
+      "playwright": "^1.55.1"
+    },
+    "engines": {
+      "node": ">=18"
+    }
+  }
